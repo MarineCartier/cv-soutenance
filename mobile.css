@@ -1,0 +1,103 @@
+body{
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	line-height: 1.6;
+	margin: 5px;
+	padding: 0;
+	background-color: #fff;
+}
+
+img{
+	width : 150px; 
+  	height : 150px;
+  	border: none;
+ 	border-radius: 50%;
+}
+
+.photomarine{
+    background-color: #ffc107;
+}
+
+.ma_photo p{
+	text-align: center;
+}
+
+.photo{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+
+h1, h2{
+	text-transform: uppercase;
+	text-align: center;
+}
+
+h1 span{
+  color: #ffc107;
+}
+
+p span{
+	border-bottom: 2px solid #ffc107;
+}
+
+.trait_jaune{
+	border-bottom: 2px solid #ffc107;
+	width: 500px;
+}
+
+.puce{
+	list-style-type: none;
+	margin-left: 8px; 
+}
+
+.titre{
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+h2.box_noir{
+	display: block;
+	background-color: #000000;
+	color: #ffc107
+}
+
+.adresse p{
+	text-align: center;
+}
+
+.resume p{
+	text-align: justify;
+}
+
+.icone{
+	text-align: center;
+	font-size: 30px;
+}
+
+.icone i{
+	color: #000000;
+}
+
+i{
+	color: #ffc107;
+}
+
+.fond_jaune{
+	 width: 100%;
+     height: 500px;
+     background-color: #ffc107;
+}
+
+.block{
+	width: 50%;
+}
+
+.recommandations{
+	width: 100%;
+	display: flex;
+	text-align: center;
+}
+
+
