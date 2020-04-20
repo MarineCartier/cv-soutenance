@@ -28,7 +28,6 @@ img{
 	margin-right: auto;	
 }
 
-
 h1{
 	text-transform: uppercase;
 	text-align: center;
@@ -129,43 +128,98 @@ h2 i{
 }
 
 @media only screen and (min-width: 960px){
+
+	body{
+		margin: 0px 40px 0px 40px;
+	}
+
 	.photomarine{
-		width: 40%;
+		width: 30%;
 		position: relative;
 		float: left;
 	}
+
 	.titrecv{
-		width: 60%;
-		position: relative;
-		text-align: center;
+		width: 70%;
+		text-align: justify;
 		float: right;
+		margin-bottom: 70px;
 	}
+
+	.titrecv h1, .titrecv p{
+		text-align: justify;
+		margin-left: 40px;
+		line-height: 10px;
+	}
+
+	.titrecv h1{
+		font-size: 50px;
+	}
+
+	.titrecv p{
+		font-size: 20px;
+	}
+
+
 	.fond_jaune{
 		float: left;
-		width: 40%;
+		width: 30%;
 		height: 100%;
+	}
+	img{
+		margin-top: 20px;
+		margin-bottom: 10px;
 	}
 
 	.activite{
 		position: relative;
-		width: 60%;
+		width: 70%;
 		float: right;
 	}
 
 	.adresse{
-		margin-left: 30px;
+		margin: 30px 0px 30px 30px;
 	}
 
 	.resumer{
-		margin: 0px 30px 850px 30px;
-
+		margin: 10px 30px 280px 30px;
 	}
 
-	body{
-		display: inline;
-		position: absolute; 
-		margin-left: 20px;
+	.trait_jaune{
+		width: 960px;
+		margin-left: 40px;
 	}
 
+	.recommandations{
+		line-height: 4px;
+		text-align: justify;
+		margin-left: 40px;
+	}
+
+	.interline1, .interline2, .interline3, .interline4{
+		line-height: 4px;
+	}
+
+	.paragraphe{
+	display: flex;
+	width: 100%;
+	text-align: justify;
+	}
+
+	.alignement1{
+		margin-right: 310px;
+	}
+
+	.alignement3{
+		margin-right: 210px;
+	}
+
+	.alignement5{
+		margin-right: 150px;
+	}
+
+	.annee_formation{
+		margin-right: 50px;
+	}
 
 }
